@@ -1,0 +1,683 @@
+@font-face {
+   font-family: "biko_black";
+   src: url("./webfontkit/biko_black-webfont.woff2") format("woff2");
+   src: url("./webfontkit/biko_black-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "biko_bold";
+   src: url("./webfontkit/biko_bold-webfont.woff2") format("woff2");
+   src: url("./webfontkit/biko_bold-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "biko_regular";
+   src: url("./webfontkit/biko_regular-webfont.woff2") format("woff2");
+   src: url("./webfontkit/biko_regular-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "biko_light";
+   src: url("./webfontkit/biko_light-restricted-webfont.woff2") format("woff2");
+   src: url("./webfontkit/biko_light-restricted-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "lilitaone";
+   src: url("./webfontkit/lilitaone-regular-webfont.woff2") format("woff2");
+   src: url("./webfontkit/lilitaone-regular-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "librebakersville_bold";
+   src: url("./webfontkit/librebaskerville-bold-webfont.woff2") format("woff2");
+   src: url("./webfontkit/librebaskerville-bold-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "librebakersville_italic";
+   src: url("./webfontkit/librebaskerville-italic-webfont.woff2") format("woff2");
+   src: url("./webfontkit/librebaskerville-italic-webfont.woff") format("woff");
+   }
+
+@font-face {
+   font-family: "librebakersville_regular";
+   src: url("./webfontkit/librebaskerville-regular-webfont.woff2") format("woff2");
+   src: url("./webfontkit/librebaskerville-regular-webfont.woff") format("woff");
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+
+header {
+   font-family: biko_black;
+   padding: 0;
+   margin: 0;
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   background-color: rgb(239,103,173);
+}
+
+.header-logo {
+   max-width: 10vh;
+   min-width: 10vh;
+   margin-left: 1em;
+   outline: 2px transparent red;
+   padding: .2em
+}
+
+ul {
+   list-style: none;
+   margin: 0 1vh;
+}
+
+ul li {
+   display: inline-block;
+   padding: 0 2vh;
+   outline: 2px transparent red;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   color:black;
+   }
+
+section {
+   padding: 3em 1em;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.text {
+   font-size: 2rem;
+   color: black;
+   font-family: 'Spinnaker', sans-serif;
+   margin: 0 auto;
+   padding: 1em;
+   text-align: center;
+}
+
+.intro {
+   background-color: rgba(0,0,0,.4);
+   background-blend-mode: multiply;
+   background-image: url(./img/organic-body-care-products-53DUAM8.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   padding: 15vh 0;
+}
+.intro-title {
+   color:white;
+   font-family: 'biko', sans-serif;
+   text-align: center;
+   font-size: 4rem;
+}
+
+.intro-subtitle {
+   font-size: 2rem;
+   color: white;
+   font-family: 'Spinnaker', sans-serif;
+   margin: 0;
+   padding-bottom: 1em;
+
+}
+
+.btn-intro-title {
+   color: white;
+   text-align: center;
+   font-size: large;
+   padding: 0;
+   font-family: 'Spinnaker', sans-serif;
+   margin: .5em;
+}
+
+.order-now {
+   margin: 0 auto;
+   background: #f8745e;
+   width: 20em;
+   height: auto;
+   border-radius: 5px;
+   padding: .1%
+}
+
+.sub-section-info {
+   padding-bottom: 6vh;
+   margin-top: -3vh;
+}
+
+.sub-section-title {
+   padding: 0;
+   font-size: 5vh;
+   font-family: 'Spinnaker', sans-serif;
+}
+
+.sub-section-img {
+   width: 40vh;
+   height: auto;
+   margin-bottom: 1em;
+   padding: 0;
+   margin: 0;
+   outline: 2px transparent red;
+}
+
+/* Section 1: How It Works */
+
+#howitworks {
+   max-width: 95%;
+   margin: 0 auto;
+   font-family: 'Spinnaker', sans-serif;
+}
+
+.section1-title {
+   font-weight: 400;
+   color: rgb(239,103,173);
+   font-size: 6vh;
+   margin-top: -3vh;
+}
+
+.sub-section1-img {
+   align-content: center;
+   width: 50%;
+}
+
+/* Section 2 */
+
+.section2-intro {
+background-color: rgba(0,0,0,.3);
+background-blend-mode: multiply;
+background-image: url(./img/categorias.jpeg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+padding: 7em;
+}
+
+.categorias {
+   margin: 0 auto;
+   font-family: 'Spinnaker', sans-serif;
+   font-size: 3rem;
+   text-align: center;
+   color: white;  
+}
+
+/* Section 2: categorías */
+
+.menu .text {
+   font-size: 1.5rem;
+   color: black;
+   font-family: 'Spinnaker', sans-serif;
+   margin: 0;
+   padding-bottom: 1em;
+}
+
+.menu-items {
+   max-width: 70rem;
+   margin: 0 auto;
+   font-family: 'Spinnaker', sans-serif;
+   text-align: center;
+}
+
+/* .sub-section2 {
+   max-width: 30rem;
+} */
+
+.menu-items a:focus {
+   text-transform: black;
+}
+
+.section2-title {
+   color: rgb(239,103,173);
+   font-size: 7vh;
+   padding: 0;
+   margin: 0;
+}
+
+.sub-section2-title {
+   padding: 0;
+   font-size: 3rem;
+   font-family: 'Spinnaker', sans-serif;
+}
+
+.sub-section2-img {
+   width: 100%;
+   margin-bottom: 0;
+}
+
+/* .sub-menu {
+   font-family: biko_regular;
+   padding: 0;
+   margin-top: -1vh;
+} */
+
+.menu .sub-section-info {
+   margin: 0 auto;
+}
+
+.menu .order-now {
+   margin: 2em auto;
+}
+
+
+/* Section 3: Planes */
+
+section .planes {
+   font-family: 'Spinnaker', sans-serif;
+}
+
+.section3-intro {
+   background-color: rgba(0,0,0,.3);
+   background-blend-mode: multiply;
+   background-image: url("./img/natural-cosmetic-minimal-stage-for-product-present-9DCGAAC.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   }
+
+.section3-intro-title {
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   color: white;
+   border-radius: 5px;
+   padding:15vh 0;
+   font-size: 7vh;
+   font-family: 'Spinnaker', sans-serif;
+}
+
+.planes-items {
+   max-width: 70rem;
+   margin: 0 auto;
+}
+
+.planes-items .intro-subtitle {
+   color: black
+}
+
+.sub-section3 {
+   padding: 4vh 0;
+   max-width: 30rem;
+   margin: 0 auto;
+}
+
+.sub-section3-title-container {
+   display: inline-block;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center; 
+   outline: 2px transparent red;
+   padding: 0;
+}
+
+.sub-section3-title {
+   display: inline-flex;
+   color: black;
+   font-size: 7vh;
+   padding: 0;
+   margin: 0;
+   outline: 2px transparent red;
+}
+
+.sub-section3-price {
+   font-family: biko_regular;
+   color: black;
+}
+
+.sub-section-total-price {
+   font-family: biko_regular;
+   padding: 0;
+}
+
+.sub-section3-img {
+   width: 40vh;
+   height: auto;
+   margin-bottom: 1em;
+   padding: 0;
+   margin: 0;
+   outline: 2px transparent red;
+}
+
+.sub-section3-price {
+   margin-top: 0;
+   color: black;
+   font-size: 3rem;
+
+}
+.sub-section3-btn {
+   margin: 0 auto;
+   background: #5BEFBF;
+   width: 25vh;
+   height: auto;
+   border-radius: 5px;
+   padding: 1%;
+}
+
+.btn-section3-title {
+   color: black;
+   text-align: center;
+   font-size: large;
+   font-family: biko_regular;
+}
+
+.btn-section3-title:hover {
+   color: white;
+}
+
+/* Section 4: sesionVirtual */
+
+.section4-intro {
+   background-color: rgba(0,0,0,.4);
+   background-blend-mode: multiply;
+   background-image: url("./img/sesionVirtual.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   }
+
+.section4-intro-title {
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   color: white;
+   border-radius: 5px;
+   padding:15vh 0;
+   font-size: 7vh;
+   font-family: 'Spinnaker', sans-serif;
+}
+   
+.planes-items {
+   max-width: 70rem;
+   margin: 0 auto;
+   }
+   
+.planes-items .intro-subtitle {
+   color: black
+}
+
+#planes .text {
+   font-size: 2rem;
+   color: black;
+   font-family: 'Spinnaker', sans-serif;
+   margin: 0;
+   padding-bottom: 1em;
+}
+
+   
+.sub-section3 {
+   padding: 4vh 0;
+   max-width: 30rem;
+   margin: 0 auto;
+}
+   
+.sub-section3-title-container {
+   display: inline-block;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center; 
+   outline: 2px transparent red;
+   padding: 0;
+}
+   
+   .sub-section3-title {
+      display: inline-flex;
+      color: black;
+      font-size: 7vh;
+      padding: 0;
+      margin: 0;
+      outline: 2px transparent red;
+   }
+   
+   .sub-section3-price {
+      font-family: biko_regular;
+      color: black;
+   }
+   
+   .sub-section-total-price {
+      font-family: biko_regular;
+      padding: 0;
+   }
+   
+   .sub-section3-img {
+      width: 40vh;
+      height: auto;
+      margin-bottom: 1em;
+      padding: 0;
+      margin: 0;
+      outline: 2px transparent red;
+   }
+   
+   .sub-section3-price {
+      margin-top: 0;
+      color: black;
+      font-size: 3rem;
+   
+   }
+   .sub-section3-btn {
+      margin: 0 auto;
+      background: #5BEFBF;
+      width: 25vh;
+      height: auto;
+      border-radius: 5px;
+      padding: 1%;
+   }
+   
+   .btn-section3-title {
+      color: black;
+      text-align: center;
+      font-size: large;
+      font-family: biko_regular;
+   }
+   
+   .btn-section3-title:hover {
+      color: white;
+   }
+   
+.arrow {
+   display: none;
+}
+
+
+/* footer */
+
+
+ .footer {
+    background-color: #EF67AD;
+    width: 100%;
+    padding: 0;
+ }
+
+.footer-form-title {
+    font-family: biko_regular;
+    margin: 0 auto;
+    padding-top: 6vh;
+ }
+
+ .footer-form-text {
+   font-family: biko_regular;
+   color: black;
+   padding-bottom: 5vh;
+   }
+
+.footer-form {
+   text-align: center;
+   color: white;
+   padding: 0;
+   max-width: 70%;
+   margin: 0 auto;
+   }
+
+.newsletter-form {
+   display: flex;
+   flex-direction: row;
+   outline: 2px transparent red;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.input-field-footer {
+   padding: 0 1vh;
+   border: transparent;
+   width: 70%;
+   height: 5vh;
+   align-content: center;
+   outline: 3px transparent red;
+}
+  
+.submit-btn-footer {
+    background-color: #f8745e;
+    color: white;
+    border: none;
+    font-size: 2vh;
+    padding: 0;
+    width: 15vh;
+   }
+
+.submit-btn-footer:hover {
+      color: black;
+      cursor: pointer;
+   }
+
+.footer-social {
+   display: flex;
+   justify-content: space-around;
+   height: auto;
+   padding-top: 8vh;
+   padding-bottom: 4vh;
+   max-width: 50%;
+   margin: 0 auto;
+ }
+
+footer img {
+    width: 3vh;
+    color:white;
+ }
+
+ @media (min-width: 760px) {
+
+   header {
+      font-family: biko_black;
+      padding: 0;
+      margin: 0;
+      position: fixed;
+      display: grid;
+      grid-template-columns: 3fr 3fr 3fr;
+      grid-column-gap: 1vh;
+      justify-content: end;
+      justify-items: end;
+      text-align: end;
+      width: 110%;
+      background-color: rgb(239,103,173);
+      outline: 2px transparent red;
+   }
+   
+   .header-logo {
+      max-width: 10vh;
+      min-width: 10vh;
+      align-items: right;
+      outline: 2px transparent red;
+      padding: 0;
+   }
+   
+   ul {
+      list-style: none;
+      margin: 0;
+   }
+   
+   ul li {
+      display: inline-block;
+      padding: 0 2vh;
+      outline: 2px transparent red;
+   }  
+
+   #howitworks {
+      max-width: 60%;
+   }
+
+   .section-wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+
+    .menu-items { 
+       display: grid;
+       grid-template-columns: 3fr 3fr 3fr;
+       grid-column-gap: 1vh;
+       justify-content: center;
+       justify-items: center;
+    }
+   
+    .menu .text {
+       width: 30%;
+       margin: 0 auto;
+       padding: 2em 0;
+    }
+
+    .text {
+      font-size: 3rem;
+      text-align: center;
+      color: black;
+      width: 50%;
+      margin: 0 auto;
+      font-family: 'Spinnaker', sans-serif;
+    }
+
+    .sub-section2-title {
+      font-size: 4vh;
+   }
+    
+    .planes .foreal {
+      display: grid;
+      grid-template-columns: auto auto;
+      width: 50%;
+      grid-column-gap: 2em;
+   }
+   
+   .section3-intro-title {
+      font-size: 5rem;
+   }
+
+   .sub-section3-img {
+      width: 30vh;
+   }
+
+   .intro-subtitle {
+      max-width: 50%;
+      margin: 0 auto;
+      font-size: 3rem;
+   }
+
+   .menu .intro-subtitle {
+      color: black;
+      max-width: 20%;
+      margin: 0 auto;
+      font-size: 1rem;
+   }
+
+   .footer-form {
+      text-align: center;
+      color: white;
+      padding: 0;
+      max-width: 30%;
+      margin: 0 auto;
+   }
+
+   .footer-social {
+      display: flex;
+      justify-content: space-around;
+      height: auto;
+      max-width: 25%;
+      margin: 0 auto;
+    }
+
+}
